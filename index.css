@@ -1,0 +1,901 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+}
+
+body {
+
+    margin: 0px;
+}
+
+.main-container .material-icons{
+    display: none;
+}
+
+.corona-header {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #fff5f5;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.corona-header:hover {
+    cursor: pointer;
+}
+
+.closeIcon {
+    display: flex;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo-main-div {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+
+
+}
+
+.div-logo {
+    display: flex;
+    background-size: contain;
+    width: 120px;
+    height: 75px;
+}
+
+.information-property {
+    display: flex;
+    height: 75px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+
+
+}
+
+.information-property li {
+    padding-right: 20px;
+
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+
+}
+
+.main-navbar li {
+    padding-right: 20px;
+}
+
+.menus {
+    display: flex;
+    width: 1200px;
+    padding-left: 5px;
+}
+
+.menus li:hover {
+    color: red;
+}
+
+.menus li {
+    list-style-type: none;
+
+}
+
+.menus-right {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+
+}
+
+.menus-right li:hover {
+    color: red;
+}
+
+
+
+.information-property li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-bar-menu {
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    width: 75%;
+    align-items: center;
+
+}
+
+.container {
+    z-index: -9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-bar-menu li {
+    display: flex;
+    padding-left: 210px;
+    padding: 10px;
+    width: 120px;
+    background-color: #b3b3b3;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    font-size: 16px;
+
+}
+
+.search-bar-menu li:hover {
+    color: red;
+}
+
+.barSearch {
+    position: absolute;
+    width: 1000px;
+    height: 150px;
+    border: 1px solid gray;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 90px;
+    background-color: #6f6f6f;
+    opacity: .8;
+    z-index: 480;
+
+}
+
+.alignPicker {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.search-bar-menu>.active {
+    display: flex;
+    background-color: #6f6f6f;
+}
+
+.search-bar-menu li:nth-child(1) {
+    background-color: black;
+    color: white;
+}
+
+.medium-container {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.medium-title {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+
+
+}
+
+.medium-title li {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.main-detail-cont {
+    display: flex;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.picture-container {
+    display: flex;
+    width: 1200px;
+}
+
+.sol-resim {
+    width: 781px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.right123 {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+.link1:nth-child(2) {
+    padding-top: 7px;
+
+
+}
+
+.link1:nth-child(1) {
+    padding-bottom: 5px;
+
+}
+
+.link1 {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.left123:hover {
+    cursor: pointer;
+
+}
+
+
+.link1:hover {
+    cursor: pointer;
+}
+
+.populer-turlar-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.populer-turlar {
+    display: flex;
+    justify-content: start;
+    width: 1200px;
+
+}
+
+.populer-turlar-icerik {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.populer-turlar-resimler {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+
+}
+
+.populer1:hover {
+    opacity: .9;
+}
+
+.main-turlar-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sol-sag-turlar1 {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sol-sag-turlar1 li {
+    padding: 10px;
+    width: 400px;
+    list-style-type: none;
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 50px;
+    border-radius: 50px;
+}
+
+.sol-sag-turlar1 li:hover {
+    cursor: pointer;
+}
+
+.gemi-turlari-container {
+    display: flex;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.barSearch-responsive {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    opacity: .8;
+}
+
+.reservation-panel-container {
+    display: none;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .corona-header{
+        text-align: center;
+    }
+
+    .main-navbar {
+        background-color: #e5252d;
+    }
+
+    .menu-responsive {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menus-right {
+        display: none;
+    }
+
+    .menus {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .reservation-panel-container {
+        display: flex;
+        display: block;
+        width: 100%;
+        height: 250px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #e2dad9;
+
+    }
+
+    .TakvimYasla {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+
+    .sol-resim {
+        width: 75%;
+        height: 300px;
+        padding-right: 15px;
+    }
+
+    .picture-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .medium-title h3 {
+        font-size: 20px;
+    }
+
+    .link1 {
+        display: flex;
+        width: 100% !important;
+        height: 150px !important;
+        background-size: contain;
+    }
+
+    .populer-turlar h3 {
+        font-size: 15px;
+        padding-left: 50px;
+    }
+
+    .populer-turlar-resimler {
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+    .main-turlar-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sol-sag-turlar1 li {
+        padding: 10px;
+        width: 250px;
+        list-style-type: none;
+        border: 2px solid black;
+        text-align: center;
+        background-color: white;
+        justify-content: space-between;
+        margin-right: 50px;
+        border-radius: 50px;
+    }
+
+    .populer1 {
+        width: 180px !important;
+        height: 100px !important;
+        background-size: contain;
+    }
+
+
+    .menus li {
+        text-align: center;
+        padding: 5px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .menus li:hover {
+        background: #db0209;
+        color: white;
+    }
+
+    .barSearch {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+    .corona-header{
+        text-align: center;
+    }
+    .main-navbar {
+        background-color: #e5252d;
+    }
+
+    .main-container .material-icons{
+        
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        justify-content:center;
+        cursor: pointer;
+    }
+
+    .main-container #butons{
+        display:none;
+    }
+
+    .main-container .material-icons:hover{
+        background-color: #f79195;
+    }
+    .information-property{
+        display:none;
+    }
+
+    .information-property li{
+        display:none;
+    }
+
+    .menu-responsive {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menus-right {
+        display: none;
+    }
+
+    .menus {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .menus{
+        display: none;
+    }
+
+    .reservation-panel-container {
+        display: flex;
+        display: block;
+        width: 100%;
+        height: 250px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #e2dad9;
+
+    }
+
+    .TakvimYasla {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    .typeaheadHotelYasla {
+        width:100% !important;
+        height: 35px !important;
+        
+    }
+
+    .TakvimYasla div{
+        width:100% !important;
+        height: 35px !important;
+        align-items: center;
+    }
+
+    .TakvimYasla select{
+        width:100% !important;
+        height: 35px !important;
+       
+    }
+
+    .TakvimYasla .search-button-sec{
+        width:100% !important;
+        height: 25px !important;
+        align-items: center;  
+    }
+
+
+    .sol-resim {
+        width: 70%;
+        height: 300px;
+        padding-right: 15px;
+    }
+
+    .picture-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .medium-title h3 {
+        font-size: 15px;
+        
+    }
+
+
+    .medium-title li{
+        padding:0px !important;
+        font-size: 12px;
+        margin-top:17px;
+    }
+
+    
+
+    .link1 {
+        display: flex;
+        width: 100% !important;
+        height: 150px !important;
+        background-size: contain;
+    }
+
+    .populer-turlar h3 {
+        font-size: 15px;
+        padding-left: 50px;
+    }
+
+    .populer-turlar-resimler {
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        padding-left: 50px;
+        padding-right: 50px;
+        flex-wrap: wrap;
+        
+        
+       
+
+    }
+
+    .sol-sag-turlar1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .sol-sag-turlar1 li:nth-child(1){
+        margin-bottom:20px;
+        
+    }
+    .sol-sag-turlar1 li{
+        width:250px;
+    }
+    .main-turlar-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        align-items: center;
+        
+        
+    }
+
+    .populer1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100% !important;
+        height: 300px !important;
+        background-size: contain;
+       
+    }
+
+
+    .menus li {
+        text-align: center;
+        padding: 5px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .menus li:hover {
+        background: #db0209;
+        color: white;
+    }
+
+    .barSearch {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .main-container .material-icons{
+        
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .main-navbar .menus{
+        display:none;
+    }
+
+    .search-bar-menu{
+        display:none;
+    }
+
+    .barSearch{
+        display: none;
+    }
+
+    .information-property{
+        display:none;
+    }
+
+    .information-property li{
+        display:none;
+    }
+    .main-navbar {
+        background-color: #e5252d;
+    }
+
+    .menu-responsive {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menus-right {
+        display: none;
+    }
+
+    .menus {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .reservation-panel-container {
+        display: flex;
+        display: block;
+        width: 100%;
+        height: 250px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #e2dad9;
+
+    }
+
+    .TakvimYasla {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+   .typeaheadHotelYasla {
+        width:100% !important;
+        height: 35px !important;
+        
+    }
+
+    .TakvimYasla div{
+        width:100% !important;
+        height: 35px !important;
+        align-items: center;
+    }
+
+    .TakvimYasla select{
+        width:100% !important;
+        height: 35px !important;
+       
+    }
+
+    .TakvimYasla .search-button-sec{
+        width:100% !important;
+        height: 25px !important;
+        align-items: center;  
+    }
+
+    .sol-resim {
+        width: 70%;
+        height: 300px;
+        padding-right: 15px;
+    }
+
+    .picture-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .medium-title h3 {
+        font-size: 15px;
+        
+    }
+
+
+    .medium-title li{
+        padding:0px !important;
+        font-size: 12px;
+        margin-top:17px;
+    }
+
+    
+
+    .link1 {
+        display: flex;
+        width: 100% !important;
+        height: 150px !important;
+        background-size: contain;
+    }
+
+    .populer-turlar h3 {
+        font-size: 15px;
+        padding-left: 50px;
+    }
+
+    .populer-turlar-resimler {
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        padding-left: 50px;
+        padding-right: 50px;
+        flex-wrap: wrap;
+        
+        
+       
+
+    }
+
+    .sol-sag-turlar1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .sol-sag-turlar1 li:nth-child(1){
+        margin-bottom:20px;
+        
+    }
+    .sol-sag-turlar1 li{
+        width:250px;
+    }
+    .main-turlar-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        align-items: center;
+        
+        
+    }
+
+    .populer1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100% !important;
+        height: 300px !important;
+        background-size: contain;
+       
+    }
+
+
+    .menus li {
+        text-align: center;
+        padding: 5px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .menus li:hover {
+        background: #db0209;
+        color: white;
+    }
+
+    .barSearch {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+}
